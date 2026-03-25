@@ -1,0 +1,104 @@
+/* GLOBAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+/* NAVIGATION FLEXBOX */
+.nav-flex ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-flex li {
+    margin: 0 15px;
+}
+
+.nav-flex a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* BOX CLASS */
+.box {
+    border: 1px solid #ccc;
+}
+
+/* PROFILE, SKILLS, EDUCATION */
+.profile {
+    background-color: #e8f0fe;
+}
+
+.skills {
+    background-color: #e6ffe6;
+}
+
+.education {
+    background-color: #ffe6e6;
+}
+
+/* SKILLS FLEXBOX */
+.skills-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-card {
+    flex: 1 1 120px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* EDUCATION FLEXBOX */
+.education-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.edu-card {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
