@@ -6,7 +6,7 @@ export default function App() {
   const [css, setCss] = useState(`:root {
   --bg: #ffffff;
   --text: #111827;
-  --primary: #6366f1;
+  --primary: #b2db1c;
   --card: #f3f4f6;
 }
 
