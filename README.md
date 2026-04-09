@@ -4,7 +4,7 @@
 https://bhagyashrii-codes.github.io/bhagyashrii-codes/
 
 ## 📁 Repository
-https://github.com/bhagyashrii-codes/bhagyashrii-codes
+https://bhagyashrii-codes.github.io/Online_editor/
 
 ## ✅ Tasks Completed
 - Task 1: Semantic HTML Personal Profile Page
