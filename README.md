@@ -1,7 +1,7 @@
 # Web Development Tasks
 
 ## 🚀 Live Website (Task 6)
-https://bhagyashrii-codes.github.io/bhagyashrii-codes/
+https://bhagyashrii-codes.github.io/Online_editor/
 
 ## 📁 Repository
 https://bhagyashrii-codes.github.io/Online_editor/
