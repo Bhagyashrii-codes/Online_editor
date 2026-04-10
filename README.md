@@ -13,4 +13,30 @@ https://github.com/bhagyashrii-codes/Online_editor
 - Task 4: Multi-page Website
 - Task 5: Contact Form with HTML Validation
 - Task 6: Website Hosting using GitHub Pages
+- ## 📌 Task 7 - Profile Page
+
+### 🔹 Description
+Responsive profile page with:
+- Navigation bar
+- Skills section
+- Education section
+- Dark mode toggle
+- Interactive buttons using JavaScript
+
+📂 Folder: Task-7-Profile
+
+---
+
+## 📌 Task 8 - To Do List App
+
+### 🔹 Description
+A functional To-Do list application with CRUD operations:
+- Add tasks
+- Delete tasks
+- Mark tasks as completed
+
+📂 Folder: Task-8-Todo
+📂 [Task 7 Folder](./Task-7-Profile)
+
+📂 [Task 8 Folder](./Task-8-Todo)
 
