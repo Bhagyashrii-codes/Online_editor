@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Profile Page</title>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>My Profile</h1>
+</header>
+
+<!-- NAVIGATION -->
+<nav class="nav-flex">
+    <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+    </ul>
+</nav>
+
+<!-- PROFILE SECTION -->
+<section id="profile" class="profile box">
+
+    <h2 id="heading">About Me</h2>
+
+    <p id="text">
+        Hello, this is my profile page.
+    </p>
+
+    <!-- Buttons -->
+
+    <button id="changeTextBtn">
+        Click Me
+    </button>
+
+    <button id="changeColorBtn">
+        Change Color
+    </button>
+
+    <button id="toggleModeBtn">
+        Toggle Dark Mode
+    </button>
+
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills box">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-flex">
+
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Python</div>
+
+    </div>
+
+</section>
+
+<!-- EDUCATION SECTION -->
+<section id="education" class="education box">
+
+    <h2>Education</h2>
+
+    <div class="education-flex">
+
+        <div class="edu-card">High School</div>
+        <div class="edu-card">College</div>
+        <div class="edu-card">University</div>
+
+    </div>
+
+</section>
+<!-- TODO SECTION -->
+<section id="todo" class="box">
+
+    <h2>To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button id="addTaskBtn">Add Task</button>
+
+    <ul id="taskList"></ul>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 My Profile</p>
+</footer>
+
+<!-- LINK TO JAVASCRIPT -->
+<script src="./script.js"></script>
+
+</body>
+</html>
