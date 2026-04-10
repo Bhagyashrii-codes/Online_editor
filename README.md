@@ -35,8 +35,4 @@ A functional To-Do list application with CRUD operations:
 - Delete tasks
 - Mark tasks as completed
 
-📂 Folder: Task-8-Todo
-📂 [Task 7 Folder](./Task-7-Profile)
-
-📂 [Task 8 Folder](./Task-8-Todo)
-
+📂 [Open Task 8](./Task-8-Todo)
