@@ -1,0 +1,298 @@
+/* GLOBAL STYLES */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1012;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+    /* Smooth transition */
+    transition: all 0.3s ease;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #a59696;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+
+/* NAVIGATION FLEXBOX */
+
+.nav-flex ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-flex li {
+    margin: 0 15px;
+}
+
+.nav-flex a {
+    text-decoration: none;
+    color: #7e5252;
+    font-weight: bold;
+}
+
+/* Navigation hover */
+
+.nav-flex a:hover {
+    color: red;
+}
+
+
+/* SECTIONS */
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* BOX CLASS */
+
+.box {
+    border: 1px solid #ccc;
+}
+
+
+/* PROFILE, SKILLS, EDUCATION COLORS */
+
+.profile {
+    background-color: #e8f0fe;
+}
+
+.skills {
+    background-color: #e6ffe6;
+}
+
+.education {
+    background-color: #ffe6e6;
+}
+
+
+/* SKILLS FLEXBOX */
+
+.skills-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-card {
+    flex: 1 1 120px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* EDUCATION FLEXBOX */
+
+.education-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.edu-card {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+
+/* FORM LAYOUT */
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+/* FORM GROUP */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* LABELS */
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+/* INPUTS & TEXTAREA */
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* FORM BUTTON */
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* FORM BUTTON HOVER */
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+
+/* GENERAL BUTTON STYLING */
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+    transition: all 0.3s ease;
+}
+
+
+/* BUTTON HOVER */
+
+button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/* HIGHLIGHT CLASS (Used in JS) */
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* DARK MODE */
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+/* Dark Mode Sections */
+
+.dark-mode section {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+
+/* Dark Mode Cards */
+
+.dark-mode .skill-card,
+.dark-mode .edu-card {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    .nav-flex ul {
+        flex-direction: column;
+    }
+
+    .skills-flex,
+    .education-flex {
+        flex-direction: column;
+    }
+
+}
+/* TODO SECTION */
+
+#todo input {
+    padding: 10px;
+    width: 200px;
+}
+
+#todo button {
+    padding: 10px;
+}
+
+#taskList {
+    margin-top: 20px;
+}
+
+#taskList li {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
