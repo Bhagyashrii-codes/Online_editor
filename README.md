@@ -23,7 +23,7 @@ Responsive profile page with:
 - Dark mode toggle
 - Interactive buttons using JavaScript
 
-📂 Folder: Task-7-Profile
+📂 [Open Task 7](./online_editor)
 
 ---
 
